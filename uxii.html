@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)file:///home/admin-034/Documents/BABLI/uxi.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCA Scholarship Program</title>
+    <link rel="stylesheet" href="file:///home/admin-034/Documents/BABLI/uxi_files/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Navgurukul</h1>
+            </div>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html#home">Home</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#about">About</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#program">Program</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#gallery">Gallery</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#partners">Partners</a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>BCA Scholarship Program</h2>
+            <p>Providing a scholarship to 90 girls for the BCA program at Eternal University in collaboration with Navgurukul and Sri Badrika Ashram.</p>
+        </div>
+    </section>
+    
+    <section id="about" class="section">
+        <h2>About the Scholarship</h2>
+        <p>This initiative aims to empower 90 girls by providing them with a full scholarship to pursue the Bachelor of Computer Applications (BCA) program at Eternal University. This program is designed to equip students with the necessary skills and knowledge to excel in the tech industry.</p>
+    </section>
+    
+    <section id="program" class="section">
+        <h2>Program Details</h2>
+        <p>The BCA program covers a wide range of subjects including programming, database management, web development, and software engineering. The curriculum is designed to provide hands-on learning experiences and prepare students for successful careers in technology.</p>
+    </section>
+    
+    <section id="gallery" class="section gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item"><img src="./uxii_files/Eu" alt="Gallery Image 1"></div>
+            <div class="gallery-item"><img src="./uxii_files/eternal" alt="Gallery Image 2"></div>
+        </div>
+    </section>
+    
+    <section id="partners" class="section">
+        <h2>Our Partners</h2>
+        <div class="partners-container">
+            </div>
+            <div class="partner">
+                <img src="./uxii_files/Eternal_University" alt="Eternal University">
+                <h3>Eternal University</h3>
+            </div>
+            <div class="partner">
+                <img src="./uxii_files/sba" alt="Sri Badrika Ashram">
+                <h3>Sri Badrika Ashram</h3>
+            </div>
+        
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required="">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required="">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required=""></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 BCA Scholarship Program. All rights reserved.</p>
+    </footer>
+
+    <script src="file:///home/admin-034/Documents/BABLI/uxi_files/script.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
